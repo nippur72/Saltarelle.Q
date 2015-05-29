@@ -1,6 +1,11 @@
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+packages/
+SaltarelleQ/bin
+SaltarelleQ/obj
+Test/bin
+Test/obj
 
 # Folder config file
 Desktop.ini
