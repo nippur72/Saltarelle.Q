@@ -38,6 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assembly.cs" />
+    <Compile Include="ProgramEs6.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -17,14 +17,14 @@ public class Future<T> : FutureBase<T>, INotifyCompletion
 {
 }
 
-
 [Imported]
 public class FutureBase<T> : INotifyCompletion
 {
 	#region async/await compiler interface
 
-	[InlineCode("{this}")] 
+	//[InlineCode("{this}")] 
 	//[InlineCode("({this}.done(function(){{}},function(err){{throw err;}},function(){{}}))")] 
+	[InlineCode("{this}.catch(function(err){{$$ex=err; $sm();}})")] 
 	public extern FutureBase<T> GetAwaiter();
 	
 	public extern bool IsCompleted 

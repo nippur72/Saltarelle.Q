@@ -6,6 +6,8 @@ SaltarelleQ/bin
 SaltarelleQ/obj
 Test/bin
 Test/obj
+web/node_modules/
+*.suo
 
 # Folder config file
 Desktop.ini
